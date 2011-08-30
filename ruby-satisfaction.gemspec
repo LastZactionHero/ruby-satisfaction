@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rr", '1.0.2'
 
   s.extra_rdoc_files = [ "README.markdown" ]
-  s.files        = `git ls-files`.split("\n") - ['.rvmrc', '.gitignore']
-  s.test_files = `git ls-files`.split("\n").grep(/^spec/)
+  #s.files        = `git ls-files`.split("\n") - ['.rvmrc', '.gitignore']
+  #s.test_files = `git ls-files`.split("\n").grep(/^spec/)
   s.require_path = 'lib'
 end
 
