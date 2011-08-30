@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'nokogiri', '>= 1.4.2'
   s.add_dependency 'json', '>= 1.4.6'
-  s.add_dependency 'activesupport', '~> 2.3'
+  s.add_dependency 'activesupport', '>= 2.3'
   s.add_dependency 'memcache-client', '>= 1.5.0'
   s.add_dependency 'oauth', '>= 0.3.5'
 
