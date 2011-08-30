@@ -3,7 +3,7 @@ require File.expand_path("../lib/satisfaction/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "ruby-satisfaction"
-  s.version     = Satisfaction::VERSION::STRING
+  s.version     = Sfn::VERSION::STRING
   s.platform    = Gem::Platform::RUBY
   s.author     = 'Get Satisfaction'
   s.email       = ["nerds+rubygems@getsatisfaction.com"]

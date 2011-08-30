@@ -1,4 +1,4 @@
-module Satisfaction
+module Sfn
   module VERSION
     MAJOR = 0
     MINOR = 6
